@@ -1,0 +1,1 @@
+import{G as t,m as o}from"./index-Bn9gOaZG.js";async function s(n){const e=encodeURIComponent(String(n));return t(`/v2/competitions/${e}/standings`)}const i=o(3e4);function c(n){return i.get(n,()=>s(n))}export{c as g};

@@ -1,0 +1,1 @@
+import{ar as t}from"./index-Bn9gOaZG.js";function a(r){const e=String(r).trim();if(!/^[1-9]\d*$/.test(e))throw new Error("Invalid game id");return e}function i(r){const e=a(r);return t(`/v2/games/${e}/details`,{cache:"no-store"})}export{i as g};

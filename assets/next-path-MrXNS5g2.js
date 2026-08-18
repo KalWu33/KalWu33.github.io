@@ -1,0 +1,1 @@
+function s(r,n="/"){if(!r)return n;const t=r.trim();return!t.startsWith("/")||t.startsWith("//")?n:t}function e(r,n){const t=new URLSearchParams({next:n});return`${r}?${t.toString()}`}export{s,e as w};
